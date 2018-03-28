@@ -1,0 +1,87 @@
+{
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "0.7.9"
+  },
+  "app": {
+    "namespace": "StencilBulma",
+    "fsNamespace": "stencil-bulma",
+    "components": 1,
+    "entries": 1,
+    "bundles": 4
+  },
+  "options": {
+    "minifyJs": true,
+    "minifyCss": true,
+    "hashFileNames": true,
+    "hashedFileNameLength": 8,
+    "buildEs5": true
+  },
+  "components": [
+    {
+      "tag": "bulma-menu",
+      "dependencies": [],
+      "dependencyOf": []
+    }
+  ],
+  "entries": [
+    {
+      "entryId": "entry:bulma-menu",
+      "components": [
+        {
+          "tag": "bulma-menu",
+          "dependencies": [],
+          "dependencyOf": []
+        }
+      ],
+      "bundles": [
+        {
+          "fileName": "fcvdivf6.js",
+          "size": 2464,
+          "outputs": [
+            "dist/stencil-bulma/fcvdivf6.js",
+            "www/build/stencil-bulma/fcvdivf6.js"
+          ]
+        },
+        {
+          "fileName": "fcvdivf6.sc.js",
+          "size": 3541,
+          "outputs": [
+            "dist/stencil-bulma/fcvdivf6.sc.js",
+            "www/build/stencil-bulma/fcvdivf6.sc.js"
+          ],
+          "scopedStyles": true
+        },
+        {
+          "fileName": "fcvdivf6.es5.js",
+          "size": 2852,
+          "outputs": [
+            "dist/stencil-bulma/fcvdivf6.es5.js",
+            "www/build/stencil-bulma/fcvdivf6.es5.js"
+          ],
+          "target": "es5"
+        },
+        {
+          "fileName": "fcvdivf6.sc.es5.js",
+          "size": 3929,
+          "outputs": [
+            "dist/stencil-bulma/fcvdivf6.sc.es5.js",
+            "www/build/stencil-bulma/fcvdivf6.sc.es5.js"
+          ],
+          "target": "es5",
+          "scopedStyles": true
+        }
+      ],
+      "inputs": [
+        "dist/collection/components/bulma-menu/bulma-menu.js"
+      ],
+      "encapsulations": [
+        "shadow"
+      ]
+    }
+  ],
+  "sourceGraph": {
+    "src/components/bulma-menu/bulma-menu.tsx": []
+  },
+  "collections": []
+}

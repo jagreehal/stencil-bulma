@@ -1,0 +1,32 @@
+{
+  "components": [
+    {
+      "tag": "bulma-menu",
+      "dependencies": [],
+      "componentClass": "BulmaMenu",
+      "componentPath": "components/bulma-menu/bulma-menu.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/bulma-menu/bulma-menu.scss"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "data",
+          "type": "Any",
+          "attr": "data"
+        }
+      ],
+      "shadow": true
+    }
+  ],
+  "collections": [],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "0.7.9",
+    "typescriptVersion": "2.7.2"
+  },
+  "bundles": []
+}

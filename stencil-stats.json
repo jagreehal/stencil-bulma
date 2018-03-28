@@ -36,37 +36,37 @@
       ],
       "bundles": [
         {
-          "fileName": "fcvdivf6.js",
-          "size": 2464,
+          "fileName": "ybwfxp5c.js",
+          "size": 2546,
           "outputs": [
-            "dist/stencil-bulma/fcvdivf6.js",
-            "www/build/stencil-bulma/fcvdivf6.js"
+            "dist/stencil-bulma/ybwfxp5c.js",
+            "www/build/stencil-bulma/ybwfxp5c.js"
           ]
         },
         {
-          "fileName": "fcvdivf6.sc.js",
-          "size": 3541,
+          "fileName": "ybwfxp5c.sc.js",
+          "size": 3623,
           "outputs": [
-            "dist/stencil-bulma/fcvdivf6.sc.js",
-            "www/build/stencil-bulma/fcvdivf6.sc.js"
+            "dist/stencil-bulma/ybwfxp5c.sc.js",
+            "www/build/stencil-bulma/ybwfxp5c.sc.js"
           ],
           "scopedStyles": true
         },
         {
-          "fileName": "fcvdivf6.es5.js",
-          "size": 2852,
+          "fileName": "ybwfxp5c.es5.js",
+          "size": 2996,
           "outputs": [
-            "dist/stencil-bulma/fcvdivf6.es5.js",
-            "www/build/stencil-bulma/fcvdivf6.es5.js"
+            "dist/stencil-bulma/ybwfxp5c.es5.js",
+            "www/build/stencil-bulma/ybwfxp5c.es5.js"
           ],
           "target": "es5"
         },
         {
-          "fileName": "fcvdivf6.sc.es5.js",
-          "size": 3929,
+          "fileName": "ybwfxp5c.sc.es5.js",
+          "size": 4073,
           "outputs": [
-            "dist/stencil-bulma/fcvdivf6.sc.es5.js",
-            "www/build/stencil-bulma/fcvdivf6.sc.es5.js"
+            "dist/stencil-bulma/ybwfxp5c.sc.es5.js",
+            "www/build/stencil-bulma/ybwfxp5c.sc.es5.js"
           ],
           "target": "es5",
           "scopedStyles": true

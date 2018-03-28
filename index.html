@@ -1,4 +1,7 @@
-<!DOCTYPE html><html dir="ltr" lang="en"><head>
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
   <meta charset="utf-8">
   <title>Stencil App</title>
   <meta name="Description" content="Stencil App Example">
@@ -8,7 +11,7 @@
 
   <meta http-equiv="x-ua-compatible" content="IE=Edge">
 
-  <script src="/build/stencil-bulma.js"></script>
+  <script src="build/stencil-bulma.js"></script>
 
   <link rel="apple-touch-icon" href="/assets/icon/icon.png">
   <link rel="icon" type="image/x-icon" href="/assets/icon/favicon.ico">
@@ -28,9 +31,11 @@
   <script>
     if ('serviceWorker' in navigator && location.protocol !== 'file:') {
       // auto-unregister service worker during dev mode
-      navigator.serviceWorker.getRegistration().then(function(registration) {
+      navigator.serviceWorker.getRegistration().then(function (registration) {
         if (registration) {
-          registration.unregister().then(function() { location.reload(true) });
+          registration.unregister().then(function () {
+            location.reload(true)
+          });
         }
       });
     }
@@ -38,4 +43,6 @@
 
 
 
-</body></html>
+</body>
+
+</html>

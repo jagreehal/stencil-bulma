@@ -31,15 +31,15 @@ self.__precacheManifest = [
   },
   {
     "url": "build/stencil-bulma.js",
-    "revision": "4263b29c7e0f0a75bf42f75778340414"
+    "revision": "efd4d52ddf4f5a4976ad074aa5407427"
   },
   {
-    "url": "build/stencil-bulma/stencil-bulma.amk3c5zv.js",
-    "revision": "3423f171a464f1ab83997cfe12f1e1a1"
+    "url": "build/stencil-bulma/stencil-bulma.exlyvvgu.js",
+    "revision": "86568c9276eedaf89d1b3193fd7b8938"
   },
   {
-    "url": "build/stencil-bulma/stencil-bulma.tsljxd9s.js",
-    "revision": "c80f89a3025ac1c6f14f5bd11a61795f"
+    "url": "build/stencil-bulma/stencil-bulma.jupbzqed.js",
+    "revision": "7fbe3790574e76d6336875ad3d2242bf"
   },
   {
     "url": "build/stencil-bulma/ybwfxp5c.es5.js",

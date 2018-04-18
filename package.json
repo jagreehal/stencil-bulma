@@ -1,7 +1,7 @@
 {
   "name": "stencil-bulma",
   "version": "1.0.0",
-  "description": "Stencil bulma example",
+  "description": "Stencil Bulma example",
   "main": "dist/stencil-bulma.js",
   "types": "dist/types/components.d.ts",
   "collection": "dist/collection/collection-manifest.json",
@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "build": "stencil build --stats --prerender",
-    "predeploy": "num run lint && num run test && num run build && gh-pages -d www",
+    "predeploy": "npm run lint && npm run test && npm run build && gh-pages -d www",
     "deploy": "gh-pages -d www",
     "dev": "sd concurrent \"stencil build --dev --watch\" \"stencil-dev-server\"",
     "lint": "sd concurrent \"npm run lint:ts\" \"npm run lint:styles\"",

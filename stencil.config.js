@@ -6,7 +6,8 @@ exports.config = {
   namespace: 'stencil-bulma',
   outputTargets: [
     {
-      type: 'www'
+      type: 'www',
+      serviceWorker: false
     },
     {
       type: 'dist'

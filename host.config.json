@@ -6,7 +6,7 @@
         "headers": [
           {
             "name": "Link",
-            "value": "</build/stencil-bulma/stencil-bulma.exlyvvgu.js>;rel=preload;as=script"
+            "value": "</dist/stencil-bulma/stencil-bulma.exlyvvgu.js>;rel=preload;as=script"
           },
           {
             "name": "Link",

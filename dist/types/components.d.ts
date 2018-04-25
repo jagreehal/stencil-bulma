@@ -26,9 +26,15 @@ declare global {
 
 
 declare global {
-  interface HTMLBulmaMenuElement extends HTMLStencilElement {
-    'data': any;
+
+  namespace StencilComponents {
+    interface BulmaMenu {
+      'data': any;
+    }
   }
+
+  interface HTMLBulmaMenuElement extends StencilComponents.BulmaMenu, HTMLStencilElement {}
+
   var HTMLBulmaMenuElement: {
     prototype: HTMLBulmaMenuElement;
     new (): HTMLBulmaMenuElement;

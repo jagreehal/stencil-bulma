@@ -1,11 +1,13 @@
 const path = require('path');
-const postcss = require('@stencil/postcss');
 const sass = require('@stencil/sass');
 
 exports.config = {
+  resourcesUrl: '/stencil-bulma',
   namespace: 'stencil-bulma',
-  outputTargets: [
-    {
+  autoprefixer: {
+    browsers: ['last 2 versions']
+  },
+  outputTargets: [{
       type: 'www',
       serviceWorker: false
     },
@@ -16,15 +18,6 @@ exports.config = {
   plugins: [
     sass({
       includePaths: [path.resolve(__dirname, 'node_modules')]
-    }),
-    postcss({
-      plugins: [
-        require('autoprefixer')({
-          browsers: ['last 2 versions']
-        }),
-        require('cssnano')(),
-        require('postcss-reporter')()
-      ]
     })
   ]
 };

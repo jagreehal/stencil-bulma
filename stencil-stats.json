@@ -1,7 +1,7 @@
 {
   "compiler": {
     "name": "@stencil/core",
-    "version": "0.7.10"
+    "version": "0.7.27-2"
   },
   "app": {
     "namespace": "StencilBulma",
@@ -36,37 +36,37 @@
       ],
       "bundles": [
         {
-          "fileName": "ybwfxp5c.js",
-          "size": 2546,
+          "fileName": "2u6jixiw.js",
+          "size": 2847,
           "outputs": [
-            "dist/stencil-bulma/ybwfxp5c.js",
-            "www/build/stencil-bulma/ybwfxp5c.js"
+            "dist/stencil-bulma/2u6jixiw.js",
+            "www/build/stencil-bulma/2u6jixiw.js"
           ]
         },
         {
-          "fileName": "ybwfxp5c.sc.js",
-          "size": 3623,
+          "fileName": "2u6jixiw.sc.js",
+          "size": 3888,
           "outputs": [
-            "dist/stencil-bulma/ybwfxp5c.sc.js",
-            "www/build/stencil-bulma/ybwfxp5c.sc.js"
+            "dist/stencil-bulma/2u6jixiw.sc.js",
+            "www/build/stencil-bulma/2u6jixiw.sc.js"
           ],
           "scopedStyles": true
         },
         {
-          "fileName": "ybwfxp5c.es5.js",
-          "size": 2996,
+          "fileName": "2u6jixiw.es5.js",
+          "size": 3297,
           "outputs": [
-            "dist/stencil-bulma/ybwfxp5c.es5.js",
-            "www/build/stencil-bulma/ybwfxp5c.es5.js"
+            "dist/stencil-bulma/2u6jixiw.es5.js",
+            "www/build/stencil-bulma/2u6jixiw.es5.js"
           ],
           "target": "es5"
         },
         {
-          "fileName": "ybwfxp5c.sc.es5.js",
-          "size": 4073,
+          "fileName": "2u6jixiw.sc.es5.js",
+          "size": 4338,
           "outputs": [
-            "dist/stencil-bulma/ybwfxp5c.sc.es5.js",
-            "www/build/stencil-bulma/ybwfxp5c.sc.es5.js"
+            "dist/stencil-bulma/2u6jixiw.sc.es5.js",
+            "www/build/stencil-bulma/2u6jixiw.sc.es5.js"
           ],
           "target": "es5",
           "scopedStyles": true

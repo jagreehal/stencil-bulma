@@ -62,6 +62,11 @@ export class BulmaMenu {
     }
     static get is() { return "bulma-menu"; }
     static get encapsulation() { return "shadow"; }
-    static get properties() { return { "data": { "type": "Any", "attr": "data" } }; }
+    static get properties() { return {
+        "data": {
+            "type": "Any",
+            "attr": "data"
+        }
+    }; }
     static get style() { return "/**style-placeholder:bulma-menu:**/"; }
 }

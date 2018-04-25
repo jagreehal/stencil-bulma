@@ -6,11 +6,11 @@
         "headers": [
           {
             "name": "Link",
-            "value": "</dist/stencil-bulma/stencil-bulma.exlyvvgu.js>;rel=preload;as=script"
+            "value": "</dist/stencil-bulma/stencil-bulma.vxd1kx8e.js>;rel=preload;as=script"
           },
           {
             "name": "Link",
-            "value": "</build/stencil-bulma/ybwfxp5c.js>;rel=preload;as=script"
+            "value": "</build/stencil-bulma/2u6jixiw.js>;rel=preload;as=script"
           }
         ]
       },

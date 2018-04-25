@@ -2,11 +2,12 @@
   "namespace": "StencilBulma",
   "fsNamespace": "stencil-bulma",
   "loader": "../stencil-bulma.js",
-  "core": "stencil-bulma.jupbzqed.js",
-  "corePolyfilled": "stencil-bulma.exlyvvgu.js",
+  "global": "stencil-bulma.global.js",
+  "core": "stencil-bulma.wtfwh3um.js",
+  "corePolyfilled": "stencil-bulma.vxd1kx8e.js",
   "components": {
     "bulma-menu": {
-      "$": "ybwfxp5c"
+      "$": "2u6jixiw"
     }
   }
 }

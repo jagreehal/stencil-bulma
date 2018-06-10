@@ -35,7 +35,7 @@ const _data = [
   shadow: true
 })
 export class BulmaMenu {
-  @Prop() data = _data;
+  @Prop() data: Object = _data;
   renderLink = item => {
     return (
       <a class={`${item.selected ? 'is-active' : undefined}`}>{item.name}</a>

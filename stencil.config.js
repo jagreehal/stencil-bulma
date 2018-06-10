@@ -2,7 +2,7 @@ const path = require('path');
 const sass = require('@stencil/sass');
 
 exports.config = {
-  resourcesUrl: '/stencil-bulma',
+  baseUrl: 'stencil-bulma',
   namespace: 'stencil-bulma',
   autoprefixer: {
     browsers: ['last 2 versions']

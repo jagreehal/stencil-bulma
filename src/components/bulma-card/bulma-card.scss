@@ -1,0 +1,39 @@
+@import "bulma/sass/utilities/_all.sass";
+@import "bulma/sass/base/minireset.sass";
+@import "bulma/sass/components/media.sass";
+@import "bulma/sass/components/card.sass";
+:host {
+    display: block;
+    font-family: $family-sans-serif;
+}
+
+.title {
+    color: #363636;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.125;
+    
+    strong {
+        color: inherit;
+        font-weight: inherit
+    }
+    &.is-4 {
+        font-size: 1.5rem;
+    }
+    &.is-6 {
+        font-size: 1rem;
+    }
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+    &.is-48x48 {
+        height: 48px;
+        width: 48px;
+    }
+}
+
+::slotted(*){
+    font-family: $family-sans-serif;    
+}

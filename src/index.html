@@ -17,16 +17,66 @@
   <link rel="icon" type="image/x-icon" href="/assets/icon/favicon.ico">
   <link rel="manifest" href="/manifest.json">
   <style>
-    .styled {
-      --main: red;
-      --welcome: orange;
+    a {
+      color: #3273dc;
+      cursor: pointer;
+      text-decoration: none;
     }
   </style>
 
 </head>
 
 <body>
-  <bulma-menu></bulma-menu>
+  <!-- <bulma-menu></bulma-menu> -->
+  <!-- <div style="width:300px">
+    <bulma-card card-image="https://bulma.io/images/placeholders/1280x960.png" card-image-placeholder="Placeholder image" media-image="https://bulma.io/images/placeholders/96x96.png"
+      media-image-placeholder="Placeholder image" title="John Smith" title="@johnsmith" sub-title="@johnsmith">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+      <a>@bulmaio</a>.
+      <a href=" # ">#css</a>
+      <a href="# ">#responsive</a>
+      <br>
+      <time datetime="2016-1-1 ">11:09 PM - 1 Jan 2016</time>
+    </bulma-card>
+  </div> -->
+
+  <bulma-modal>
+    <button slot="trigger">
+      OPEN MODAL
+    </button>
+  </bulma-modal>
+
+  <bulma-modal>
+    <div style="width:300px">
+      <bulma-card card-image="https://bulma.io/images/placeholders/1280x960.png" card-image-placeholder="Placeholder image" media-image="https://bulma.io/images/placeholders/96x96.png"
+        media-image-placeholder="Placeholder image" media-title="John Smith" media-sub-title="@johnsmith" sub-title="@johnsmith">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+        <a>@bulmaio</a>.
+        <a href=" # ">#css</a>
+        <a href="# ">#responsive</a>
+        <br>
+        <time datetime="2016-1-1 ">11:09 PM - 1 Jan 2016</time>
+      </bulma-card>
+    </div>
+  </bulma-modal>
+
+  <bulma-modal>
+    <div style="width:300px">
+      <bulma-card card-image="https://bulma.io/images/placeholders/1280x960.png" card-image-placeholder="Placeholder image" media-image="https://bulma.io/images/placeholders/96x96.png"
+        media-image-placeholder="Placeholder image" media-title="John Smith" media-sub-title="@johnsmith" sub-title="@johnsmith">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+        <a>@bulmaio</a>.
+        <a href=" # ">#css</a>
+        <a href="# ">#responsive</a>
+        <br>
+        <time datetime="2016-1-1 ">11:09 PM - 1 Jan 2016</time>
+      </bulma-card>
+    </div>
+    <button slot="trigger">
+      OPEN MODAL
+    </button>
+  </bulma-modal>
+
 </body>
 
 </html>

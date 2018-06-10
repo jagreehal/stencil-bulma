@@ -14,9 +14,12 @@ declare global {
   }
   namespace JSXElements {}
 
+  interface HTMLElement {
+    componentOnReady?: () => Promise<this | null>;
+  }
+
   interface HTMLStencilElement extends HTMLElement {
     componentOnReady(): Promise<this>;
-    componentOnReady(done: (ele?: this) => void): void;
 
     forceUpdate(): void;
   }
@@ -28,8 +31,51 @@ declare global {
 declare global {
 
   namespace StencilComponents {
+    interface BulmaCard {
+      'cardImage': string;
+      'cardImagePlaceholder': string;
+      'mediaImage': string;
+      'mediaImagePlaceholder': string;
+      'mediaSubTitle': string;
+      'mediaTitle': string;
+    }
+  }
+
+  interface HTMLBulmaCardElement extends StencilComponents.BulmaCard, HTMLStencilElement {}
+
+  var HTMLBulmaCardElement: {
+    prototype: HTMLBulmaCardElement;
+    new (): HTMLBulmaCardElement;
+  };
+  interface HTMLElementTagNameMap {
+    'bulma-card': HTMLBulmaCardElement;
+  }
+  interface ElementTagNameMap {
+    'bulma-card': HTMLBulmaCardElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'bulma-card': JSXElements.BulmaCardAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface BulmaCardAttributes extends HTMLAttributes {
+      'cardImage'?: string;
+      'cardImagePlaceholder'?: string;
+      'mediaImage'?: string;
+      'mediaImagePlaceholder'?: string;
+      'mediaSubTitle'?: string;
+      'mediaTitle'?: string;
+    }
+  }
+}
+
+
+declare global {
+
+  namespace StencilComponents {
     interface BulmaMenu {
-      'data': any;
+      'data': Object;
     }
   }
 
@@ -52,9 +98,44 @@ declare global {
   }
   namespace JSXElements {
     export interface BulmaMenuAttributes extends HTMLAttributes {
-      'data'?: any;
+      'data'?: Object;
+    }
+  }
+}
+
+
+declare global {
+
+  namespace StencilComponents {
+    interface BulmaModal {
+      'isActive': boolean;
+    }
+  }
+
+  interface HTMLBulmaModalElement extends StencilComponents.BulmaModal, HTMLStencilElement {}
+
+  var HTMLBulmaModalElement: {
+    prototype: HTMLBulmaModalElement;
+    new (): HTMLBulmaModalElement;
+  };
+  interface HTMLElementTagNameMap {
+    'bulma-modal': HTMLBulmaModalElement;
+  }
+  interface ElementTagNameMap {
+    'bulma-modal': HTMLBulmaModalElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'bulma-modal': JSXElements.BulmaModalAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface BulmaModalAttributes extends HTMLAttributes {
+      'isActive'?: boolean;
     }
   }
 }
 
 declare global { namespace JSX { interface StencilJSX {} } }
+
+export declare function defineCustomElements(window: any): void;

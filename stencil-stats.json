@@ -1,14 +1,14 @@
 {
   "compiler": {
     "name": "@stencil/core",
-    "version": "0.7.27-2"
+    "version": "0.9.7"
   },
   "app": {
     "namespace": "StencilBulma",
     "fsNamespace": "stencil-bulma",
-    "components": 1,
-    "entries": 1,
-    "bundles": 4
+    "components": 3,
+    "entries": 3,
+    "bundles": 18
   },
   "options": {
     "minifyJs": true,
@@ -19,12 +19,99 @@
   },
   "components": [
     {
+      "tag": "bulma-card",
+      "dependencies": [],
+      "dependencyOf": []
+    },
+    {
       "tag": "bulma-menu",
+      "dependencies": [],
+      "dependencyOf": []
+    },
+    {
+      "tag": "bulma-modal",
       "dependencies": [],
       "dependencyOf": []
     }
   ],
   "entries": [
+    {
+      "entryId": "entry:bulma-card",
+      "components": [
+        {
+          "tag": "bulma-card",
+          "dependencies": [],
+          "dependencyOf": []
+        }
+      ],
+      "bundles": [
+        {
+          "fileName": "29rldjaf.js",
+          "outputs": [
+            "dist/stencil-bulma/29rldjaf.js",
+            "www/build/stencil-bulma/29rldjaf.js"
+          ],
+          "size": 5426,
+          "gzip": 1552
+        },
+        {
+          "fileName": "29rldjaf.sc.js",
+          "outputs": [
+            "dist/stencil-bulma/29rldjaf.sc.js",
+            "www/build/stencil-bulma/29rldjaf.sc.js"
+          ],
+          "size": 6996,
+          "gzip": 1584,
+          "scopedStyles": true
+        },
+        {
+          "fileName": "29rldjaf.es5.js",
+          "outputs": [
+            "dist/stencil-bulma/29rldjaf.es5.js",
+            "www/build/stencil-bulma/29rldjaf.es5.js"
+          ],
+          "size": 5824,
+          "gzip": 1660,
+          "target": "es5"
+        },
+        {
+          "fileName": "29rldjaf.sc.es5.js",
+          "outputs": [
+            "dist/stencil-bulma/29rldjaf.sc.es5.js",
+            "www/build/stencil-bulma/29rldjaf.sc.es5.js"
+          ],
+          "size": 7394,
+          "gzip": 1691,
+          "target": "es5",
+          "scopedStyles": true
+        },
+        {
+          "fileName": "29rldjaf.js",
+          "outputs": [
+            "dist/esm/es5/29rldjaf.js"
+          ],
+          "size": 5741,
+          "gzip": 1616,
+          "target": "es5"
+        },
+        {
+          "fileName": "29rldjaf.sc.js",
+          "outputs": [
+            "dist/esm/es5/29rldjaf.sc.js"
+          ],
+          "size": 7311,
+          "gzip": 1649,
+          "target": "es5",
+          "scopedStyles": true
+        }
+      ],
+      "inputs": [
+        "dist/collection/components/bulma-card/bulma-card.js"
+      ],
+      "encapsulations": [
+        "shadow"
+      ]
+    },
     {
       "entryId": "entry:bulma-menu",
       "components": [
@@ -37,37 +124,60 @@
       "bundles": [
         {
           "fileName": "2u6jixiw.js",
-          "size": 2847,
           "outputs": [
             "dist/stencil-bulma/2u6jixiw.js",
             "www/build/stencil-bulma/2u6jixiw.js"
-          ]
+          ],
+          "size": 2847,
+          "gzip": 1302
         },
         {
           "fileName": "2u6jixiw.sc.js",
-          "size": 3888,
           "outputs": [
             "dist/stencil-bulma/2u6jixiw.sc.js",
             "www/build/stencil-bulma/2u6jixiw.sc.js"
           ],
+          "size": 3888,
+          "gzip": 1324,
           "scopedStyles": true
         },
         {
           "fileName": "2u6jixiw.es5.js",
-          "size": 3297,
           "outputs": [
             "dist/stencil-bulma/2u6jixiw.es5.js",
             "www/build/stencil-bulma/2u6jixiw.es5.js"
           ],
+          "size": 3297,
+          "gzip": 1406,
           "target": "es5"
         },
         {
           "fileName": "2u6jixiw.sc.es5.js",
-          "size": 4338,
           "outputs": [
             "dist/stencil-bulma/2u6jixiw.sc.es5.js",
             "www/build/stencil-bulma/2u6jixiw.sc.es5.js"
           ],
+          "size": 4338,
+          "gzip": 1431,
+          "target": "es5",
+          "scopedStyles": true
+        },
+        {
+          "fileName": "2u6jixiw.js",
+          "outputs": [
+            "dist/esm/es5/2u6jixiw.js"
+          ],
+          "size": 3222,
+          "gzip": 1371,
+          "target": "es5"
+        },
+        {
+          "fileName": "2u6jixiw.sc.js",
+          "outputs": [
+            "dist/esm/es5/2u6jixiw.sc.js"
+          ],
+          "size": 4263,
+          "gzip": 1392,
           "target": "es5",
           "scopedStyles": true
         }
@@ -78,10 +188,89 @@
       "encapsulations": [
         "shadow"
       ]
+    },
+    {
+      "entryId": "entry:bulma-modal",
+      "components": [
+        {
+          "tag": "bulma-modal",
+          "dependencies": [],
+          "dependencyOf": []
+        }
+      ],
+      "bundles": [
+        {
+          "fileName": "h8fiyorm.js",
+          "outputs": [
+            "dist/stencil-bulma/h8fiyorm.js",
+            "www/build/stencil-bulma/h8fiyorm.js"
+          ],
+          "size": 4984,
+          "gzip": 1753
+        },
+        {
+          "fileName": "h8fiyorm.sc.js",
+          "outputs": [
+            "dist/stencil-bulma/h8fiyorm.sc.js",
+            "www/build/stencil-bulma/h8fiyorm.sc.js"
+          ],
+          "size": 6320,
+          "gzip": 1781,
+          "scopedStyles": true
+        },
+        {
+          "fileName": "h8fiyorm.es5.js",
+          "outputs": [
+            "dist/stencil-bulma/h8fiyorm.es5.js",
+            "www/build/stencil-bulma/h8fiyorm.es5.js"
+          ],
+          "size": 5402,
+          "gzip": 1859,
+          "target": "es5"
+        },
+        {
+          "fileName": "h8fiyorm.sc.es5.js",
+          "outputs": [
+            "dist/stencil-bulma/h8fiyorm.sc.es5.js",
+            "www/build/stencil-bulma/h8fiyorm.sc.es5.js"
+          ],
+          "size": 6738,
+          "gzip": 1884,
+          "target": "es5",
+          "scopedStyles": true
+        },
+        {
+          "fileName": "h8fiyorm.js",
+          "outputs": [
+            "dist/esm/es5/h8fiyorm.js"
+          ],
+          "size": 5320,
+          "gzip": 1815,
+          "target": "es5"
+        },
+        {
+          "fileName": "h8fiyorm.sc.js",
+          "outputs": [
+            "dist/esm/es5/h8fiyorm.sc.js"
+          ],
+          "size": 6656,
+          "gzip": 1843,
+          "target": "es5",
+          "scopedStyles": true
+        }
+      ],
+      "inputs": [
+        "dist/collection/components/bulma-modal/bulma-modal.js"
+      ],
+      "encapsulations": [
+        "shadow"
+      ]
     }
   ],
   "sourceGraph": {
-    "src/components/bulma-menu/bulma-menu.tsx": []
+    "src/components/bulma-card/bulma-card.tsx": [],
+    "src/components/bulma-menu/bulma-menu.tsx": [],
+    "src/components/bulma-modal/bulma-modal.tsx": []
   },
   "collections": []
 }

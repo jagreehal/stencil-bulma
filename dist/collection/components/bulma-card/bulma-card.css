@@ -1,0 +1,202 @@
+@keyframes spinAround {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(359deg); } }
+
+/*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal; }
+
+ul {
+  list-style: none; }
+
+button,
+input,
+select,
+textarea {
+  margin: 0; }
+
+html {
+  box-sizing: border-box; }
+
+*, *::before, *::after {
+  box-sizing: inherit; }
+
+img,
+audio,
+video {
+  height: auto;
+  max-width: 100%; }
+
+iframe {
+  border: 0; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td,
+th {
+  padding: 0;
+  text-align: left; }
+
+.media {
+  align-items: flex-start;
+  display: flex;
+  text-align: left; }
+  .media .content:not(:last-child) {
+    margin-bottom: 0.75rem; }
+  .media .media {
+    border-top: 1px solid rgba(219, 219, 219, 0.5);
+    display: flex;
+    padding-top: 0.75rem; }
+    .media .media .content:not(:last-child),
+    .media .media .control:not(:last-child) {
+      margin-bottom: 0.5rem; }
+    .media .media .media {
+      padding-top: 0.5rem; }
+      .media .media .media + .media {
+        margin-top: 0.5rem; }
+  .media + .media {
+    border-top: 1px solid rgba(219, 219, 219, 0.5);
+    margin-top: 1rem;
+    padding-top: 1rem; }
+  .media.is-large + .media {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem; }
+
+.media-left,
+.media-right {
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 0; }
+
+.media-left {
+  margin-right: 1rem; }
+
+.media-right {
+  margin-left: 1rem; }
+
+.media-content {
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  text-align: left; }
+
+.card {
+  background-color: white;
+  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+  color: #4a4a4a;
+  max-width: 100%;
+  position: relative; }
+
+.card-header {
+  background-color: none;
+  align-items: stretch;
+  box-shadow: 0 1px 2px rgba(10, 10, 10, 0.1);
+  display: flex; }
+
+.card-header-title {
+  align-items: center;
+  color: #363636;
+  display: flex;
+  flex-grow: 1;
+  font-weight: 700;
+  padding: 0.75rem; }
+  .card-header-title.is-centered {
+    justify-content: center; }
+
+.card-header-icon {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  padding: 0.75rem; }
+
+.card-image {
+  display: block;
+  position: relative; }
+
+.card-content {
+  background-color: none;
+  padding: 1.5rem; }
+
+.card-footer {
+  background-color: none;
+  border-top: 1px solid #dbdbdb;
+  align-items: stretch;
+  display: flex; }
+
+.card-footer-item {
+  align-items: center;
+  display: flex;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 0;
+  justify-content: center;
+  padding: 0.75rem; }
+  .card-footer-item:not(:last-child) {
+    border-right: 1px solid #dbdbdb; }
+
+.card .media:not(:last-child) {
+  margin-bottom: 0.75rem; }
+
+:host {
+  display: block;
+  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+
+.title {
+  color: #363636;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.125; }
+  .title strong {
+    color: inherit;
+    font-weight: inherit; }
+  .title.is-4 {
+    font-size: 1.5rem; }
+  .title.is-6 {
+    font-size: 1rem; }
+
+.image {
+  height: 100%;
+  width: 100%; }
+  .image.is-48x48 {
+    height: 48px;
+    width: 48px; }
+
+::slotted(*) {
+  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }

@@ -3,11 +3,17 @@
   "fsNamespace": "stencil-bulma",
   "loader": "../stencil-bulma.js",
   "global": "stencil-bulma.global.js",
-  "core": "stencil-bulma.wtfwh3um.js",
-  "corePolyfilled": "stencil-bulma.vxd1kx8e.js",
+  "core": "stencil-bulma.zvseqyca.js",
+  "corePolyfilled": "stencil-bulma.s4ad08b5.js",
   "components": {
+    "bulma-card": {
+      "$": "29rldjaf"
+    },
     "bulma-menu": {
       "$": "2u6jixiw"
+    },
+    "bulma-modal": {
+      "$": "h8fiyorm"
     }
   }
 }

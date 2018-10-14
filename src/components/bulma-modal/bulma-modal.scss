@@ -3,7 +3,7 @@
 @import "bulma/sass/components/modal.sass";
 
 :host {
-    box-sizing: border-box;
-    display: block; /* by default, custom elements are display: inline */
-    font-family: $family-sans-serif;
-  }
+  box-sizing: border-box;
+  display: block; /* by default, custom elements are display: inline */
+  font-family: $family-sans-serif;
+}

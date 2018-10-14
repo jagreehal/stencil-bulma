@@ -36,7 +36,7 @@
     "bulma": "^0.7.2",
     "gh-pages": "2.0.1",
     "husky": "^1.1.2",
-    "jest": "^23.6.0",
+    "jest": "23.5.0",
     "prettier": "^1.14.3",
     "stylelint": "^9.6.0",
     "stylelint-config-standard": "^18.2.0",

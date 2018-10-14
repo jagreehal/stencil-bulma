@@ -11,9 +11,8 @@
   ],
   "scripts": {
     "build": "stencil build --stats",
-    "predeploy": "npm run lint  && npm run build && gh-pages -d www",
     "deploy": "gh-pages -d www",
-    "dev": "sd concurrent \"stencil build --dev --watch\" \"stencil-dev-server\"",
+    "dev": "stencil build --dev --watch --serve",
     "lint": "sd concurrent \"npm run lint:ts\" \"npm run lint:styles\"",
     "lint:styles": "stylelint \"src/**/*.scss\"",
     "lint:ts": "tslint -p tsconfig.json -c tslint.json",
@@ -21,30 +20,30 @@
     "serve:prod": "npm run build && serve ./www --cors",
     "start": "npm run dev",
     "stylelint:fix": "stylelint --fix \"src/**/*.scss\"",
-    "test": "jest --no-cache",
-    "test:watch": "jest --watch --no-cache"
+    "test": "stencil test --spec",
+    "test:watch": "stencil test --spec --watchAll"
   },
   "author": "Jag Reehal",
   "license": "ISC",
   "dependencies": {
-    "@stencil/core": "^0.9.7"
+    "@stencil/core": "latest"
   },
   "devDependencies": {
     "@stencil/dev-server": "^0.0.18",
-    "@stencil/sass": "0.0.5",
-    "@stencil/utils": "^0.0.4",
-    "@types/jest": "^23.0.0",
-    "bulma": "^0.7.1",
-    "gh-pages": "1.2.0",
-    "husky": "^0.15.0-rc.9",
-    "jest": "^23.1.0",
-    "prettier": "^1.13.5",
-    "stylelint": "^9.2.1",
+    "@stencil/sass": "0.1.1",
+    "@stencil/utils": "^0.0.5",
+    "@types/jest": "^23.3.5",
+    "bulma": "^0.7.2",
+    "gh-pages": "2.0.1",
+    "husky": "^1.1.2",
+    "jest": "^23.6.0",
+    "prettier": "^1.14.3",
+    "stylelint": "^9.6.0",
     "stylelint-config-standard": "^18.2.0",
-    "stylelint-scss": "^3.1.0",
-    "tslint": "^5.10.0",
-    "tslint-config-airbnb": "5.9.2",
-    "tslint-config-prettier": "^1.13.0"
+    "stylelint-scss": "^3.3.1",
+    "tslint": "^5.11.0",
+    "tslint-config-airbnb": "5.11.0",
+    "tslint-config-prettier": "^1.15.0"
   },
   "husky": {
     "hooks": {
@@ -53,7 +52,7 @@
   },
   "jest": {
     "transform": {
-      "^.+\\.(ts|tsx)$": "<rootDir>/node_modules/@stencil/core/testing/jest.preprocessor.js"
+      "^.+\\.(ts|tsx)$": "ts-jest"
     },
     "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(tsx?|jsx?)$",
     "moduleFileExtensions": [

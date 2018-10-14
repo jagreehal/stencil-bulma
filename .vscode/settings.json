@@ -1,5 +1,6 @@
 {
   "editor.formatOnSave": true,
+  "tslint.autoFixOnSave": true,
   "[scss]": {
     "editor.formatOnSave": false
   },

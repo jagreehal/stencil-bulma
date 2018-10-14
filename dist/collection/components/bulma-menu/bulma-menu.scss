@@ -1,9 +1,0 @@
-@import "bulma/sass/utilities/_all.sass";
-@import "bulma/sass/base/minireset.sass";
-@import "bulma/sass/components/menu.sass";
-
-:host {
-  display: block; /* by default, custom elements are display: inline */
-  font-family: $family-sans-serif;
-}
-
